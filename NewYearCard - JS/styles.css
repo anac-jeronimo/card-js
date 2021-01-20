@@ -1,0 +1,28 @@
+body {
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+#cardBackground {
+  width: 500px;
+}
+
+#cardBackground > img {
+  width: 100%;
+}
+
+#cardMessage {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  color: whitesmoke;
+}
+
+#colorSelector {
+  display: flex;
+}
+
+.colorChoice {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}

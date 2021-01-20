@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+
+  <title>Document</title>
+</head>
+<body>
+  <h1>Make your card workshop</h1>
+  <div id="cardContainer">
+    <div id="cardBackground">
+      <img src="4kiii.jpg" alt="card background">
+    </div>
+    <div id="cardMessage">
+      Card Message
+    </div>
+  </div>
+  <textarea id="userText" rows="10" cols="50" placeholder="Type your card" onchange="updateText()"></textarea>
+
+  <div id="colorSelector">
+    <div class="colorChoice" style="background-color: red" onclick="changeTextColor('red')">  </div>
+    <div class="colorChoice" style="background-color: blue" onclick="changeTextColor('blue')">  </div>
+    <div class="colorChoice" style="background-color: purple" onclick="changeTextColor('purple')">  </div>
+  </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+''
